@@ -1,0 +1,64 @@
+body {
+    font-family: monospace;
+}
+
+
+h1{
+    font-style: italic;
+    color: rgb(222, 24, 24);
+    scroll-behavior: auto;
+    rotate:inherit;
+    scrollbar-width: 21;
+}
+
+li {
+    list-style: square;
+  }
+  
+  .switching {
+    list-style: square;
+  }
+
+
+
+  .btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  :root {
+    --green: #7fb31f;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
